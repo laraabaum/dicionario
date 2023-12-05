@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.palavras {
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10vh;
+
+}
+
+.parte-um p,
+.parte-dois p {
+    background-color: rgba(217, 217, 217, 1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.dialogo {
+    background-color: rgba(217, 217, 217, 1);
+    justify-content: center;
+    margin: 5vh 15vw;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 30px;
+    visibility: hidden;
+}
+
+.risco {
+    margin: 0 10vw;
+    width: 80vw;
+    border-bottom: 10px solid rgba(217, 217, 217, 1);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.circulo {
+    background: rgba(217, 217, 217, 1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right:-25px;
+    top:15px;  
+}
+
+.seta-cima{
+    visibility: hidden;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.seta{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 9px;
+    visibility: visible;
+}
+
+.setona{
+    font-size: 40px;
+    margin-left: 20vw;
+}
+
+.trecho{
+    display: flex;
+    align-items: center;
+}
+.trecho p{
+    display: inline-block;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.trecho .mensagem {
+    background-color: rgb(97, 97, 97);
+    width: 50vw;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-end-end-radius: 10px;
+}
+
+.mensagem{
+    color:rgba(217, 217, 217, 1);
+}
+
+.trecho .pessoa{
+    margin-right: 10px;
+}
+
+
+#modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    background-color: rgba(217, 217, 217, 1);
+    visibility: hidden;
+    font-size: 25px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+}
+
+.close{
+    position: absolute;
+    right: 9px;
+    top: 9px;
+}
+#modal h1{
+ font-size: 30px;
+}
+
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(98,12,112,1), rgba(217,217,217,0));
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#modal{
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.audio-ingles{
+    float: inline-end;
+    font-size: 24px;
+}
+
+.frase{
+    display: flex;
+    justify-content: space-between;
+}
+.audio-frase{
+    font-size: 18px;
+    align-self: end;
+}
+.modal-ingles{
+    margin-bottom: 10px;
+}
+
+.idioma{
+    font-size: 15px;
+    float: inline-end;
+}
+
+.classe-ingles .classe-pt{
+    font-size: 15px;
+}
+.texto-ingles, .texto-pt{
+    margin-top: 20px;
+}
+
+.frase-pt, .frase-ingles{
+    color: rgb(103, 103, 103);
+    font-size: 15px;
+    margin-top: 10px;
+}
